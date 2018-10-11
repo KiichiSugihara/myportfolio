@@ -1,4 +1,7 @@
+
 // @flow
+// 写真背景に名前が表示されてるコンポーネント
+
 import PropTypes from "prop-types";
 import React from "react";
 import smoothScroll from "smoothscroll";
@@ -9,6 +12,7 @@ import ArrowDownward from "@material-ui/icons/ArrowDownward";
 
 const SCROLL_TARGET_ID = "scrollTarget";
 
+//  使う状態を定義
 const styles = () => ({
   background: {
     position: "relative",
@@ -60,10 +64,10 @@ const Hero = ({ classes }) => {
       <div className={classes.background}>
         <div className={classes.titleWrapper}>
           <h1 className={classes.titleHeader}>
-            Yusuke Miyazaki
+            Kiichi Sugihara
             <br />
             <small className={classes.titleLead}>
-              Software Engineer in Japan
+              Software Engineer in Osaka
             </small>
           </h1>
         </div>

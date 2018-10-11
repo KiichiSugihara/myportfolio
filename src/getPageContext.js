@@ -1,23 +1,26 @@
 /* eslint-disable no-underscore-dangle */
 
-import { SheetsRegistry } from "jss";
-import { createMuiTheme, createGenerateClassName } from "@material-ui/core/styles";
-import deepOrange from "@material-ui/core/colors/deepOrange";
-import indigo from "@material-ui/core/colors/indigo";
+import {
+  SheetsRegistry,
+} from "jss";
+import {
+  createMuiTheme,
+  createGenerateClassName,
+} from "@material-ui/core/styles";
 
-// A theme with custom primary and secondary color.
+// テーマカラーとフォント定義
 // It's optional.
 const theme = createMuiTheme({
   palette: {
     primary: {
-      light: indigo[300],
-      main: indigo[500],
-      dark: indigo[700],
+      light: "#015384",
+      main: "#0277bd",
+      dark: "#3492ca",
     },
     secondary: {
-      light: deepOrange[300],
-      main: deepOrange[500],
-      dark: deepOrange[700],
+      light: "#ad8291",
+      main: "#f8bbd0",
+      dark: "#f9c8d9",
     },
   },
   typography: {
@@ -35,6 +38,7 @@ const theme = createMuiTheme({
     ],
   },
 });
+
 
 function createPageContext() {
   return {

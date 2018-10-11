@@ -37,7 +37,7 @@ function withRoot(Component) {
     }
 
     render() {
-      const title = "Yusuke Miyazaki";
+      const title = "Kiichi Sugihara";
 
       // MuiThemeProvider makes the theme available down the React tree thanks to React context.
       return (

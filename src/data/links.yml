@@ -1,53 +1,60 @@
+# 編集完了 blog以外
 - title: Amazon Wish List
-  url: http://amzn.asia/iyNyA3h
+  url: http://amzn.asia/76ydWtl
   icon: [fab, amazon]
   color: "#ff9900"
 
 #- title: Bitcoin
-#  url: https://blockchain.info/address/12PPiEo7nK67694wZnS7Mw8X6XCzHmWTP9
+#  url:
 #  icon: [fab, btc]
 
 - title: Blog
-  url: https://blog.ymyzk.com/
+  url: https://blog.ymyzk.com/ #未編集
   icon: rss
   color: "#f26522"
 
 - title: E-mail
-  url: mailto:miyazaki.dev@gmail.com
+  url: mailto:kiichi.sugihara@gmail.com
   icon: envelope
 
 - title: Facebook
-  url: https://www.facebook.com/ymyzk
+  url: https://www.facebook.com/KiichiSugihara
   icon: [fab, facebook]
   color: "#3b5998"
 
 - title: GitHub
-  url: https://github.com/ymyzk
+  url: https://github.com/KiichiSugihara
   icon: [fab, github]
   color: "#333"
 
 - title: LinkedIn
-  url: https://www.linkedin.com/in/yusuke-miyazaki-4b197774
+  url: https://www.linkedin.com/in/kiichisugihara
   icon: [fab, linkedin]
   color: "#0077b5"
 
 - title: Slideshare
-  url: http://www.slideshare.net/yusukemiy/
+  url: https://www.slideshare.net/KiichiSugihara
   icon: [fab, slideshare]
   color: "#0077b5"
 
 - title: Speaker Deck
-  url: https://speakerdeck.com/ymyzk
+  url: https://speakerdeck.com/kiichisugihara
   icon: custom-speakerdeck
   color: "#009287"
 
 - title: Twitter
-  url: https://twitter.com/ymyzk
+  url: https://twitter.com/kiichi_sugihara
   icon: [fab, twitter]
   color: "#1da1f2"
 
-#- title: Wantedly
-#  url: https://www.wantedly.com/users/2289515
-#  icon: null
-#  text: W
-#  color: "#00a4bb"
+# - title: Wantedly
+  # url: https://www.wantedly.com/users/51583041
+  # icon: null
+  # text: W
+  # color: "#00a4bb"
+
+# 表示できない TODO
+- title: instagram
+  url: https://www.instagram.com/kiichisugihara/
+  icon: [fab, instagram]
+  color: "#e95950"

@@ -8,8 +8,8 @@ class MyDocument extends Document {
   render() {
     const { pageContext } = this.props;
 
-    const title = "Yusuke Miyazaki";
-    const description = "Yusuke Miyazaki's portfolio website.";
+    const title = "Kiichi Sugihara";
+    const description = "Kiichi Sugihara's portfolio website.";
     const url = "https://www.ymyzk.com";
 
     return (
@@ -52,12 +52,12 @@ class MyDocument extends Document {
           <meta property="og:locale:alternate" content="en_US" />
           <meta property="og:site_name" content={title} />
           <meta property="og:description" content={description} />
-          <meta property="profile:first_name" content="Yusuke" />
-          <meta property="profile:last_name" content="Miyazaki" />
-          <meta property="profile:username" content="ymyzk" />
+          <meta property="profile:first_name" content="Kiichi" />
+          <meta property="profile:last_name" content="Sugihara" />
+          <meta property="profile:username" content="key" />
           {/* Twitter Cards */}
           <meta name="twitter:card" content="summary" />
-          <meta name="twitter:site" content="@ymyzk" />
+          <meta name="twitter:site" content="@kiichisugihara" />
           <meta name="twitter:title" content={title} />
           <meta name="twitter:description" content={description} />
           <meta name="twitter:image" content="/static/images/twitter.png" />

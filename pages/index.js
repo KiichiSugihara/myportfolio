@@ -10,15 +10,16 @@ import GridContainer from "../src/components/GridContainer";
 import Hero from "../src/components/Hero";
 import Links from "../src/components/Links";
 import Misc from "../src/components/Misc";
-import ProjectCardList from "../src/components/ProjectCardList";
+
 import Skills from "../src/components/Skills";
-import TalkList from "../src/components/TalkList";
 import WorkExperienceList from "../src/components/WorkExperienceList";
 import links from "../src/data/links";
 import misc from "../src/data/misc";
-import projects from "../src/data/projects";
+// import ProjectCardList from "../src/components/ProjectCardList";
+// import projects from "../src/data/projects";
 import skills from "../src/data/skills";
-import talks from "../src/data/talks";
+// import TalkList from "../src/components/TalkList";
+// import talks from "../src/data/talks";
 import works from "../src/data/works";
 import withRoot from "../src/withRoot";
 
@@ -39,35 +40,48 @@ const styles = theme => ({
 
 const Index = ({ classes }) => (
   <div className={classes.root}>
+    {/* 背景画像  */}
     <Hero />
     <GridContainer>
       <Grid item xs={12} className={classes.section}>
+        <Typography className={classes.sectionHeader} component="h2">
+          Links
+        </Typography>
         <div style={{ height: 50 }} />
+        {/* リンク集 */}
         <Links links={links} />
       </Grid>
       <Grid item xs={12} className={classes.section}>
         <Typography className={classes.sectionHeader} component="h2">
-          Work Experience
+          Skills
         </Typography>
-        <WorkExperienceList works={works} />
+        { /* スキル集  */}
+        <Skills skills={skills} />
       </Grid>
-      <Grid item xs={12} className={classes.section}>
+
+      {
+        /* talk list のコンポーネントを使わないので、コメントに
+        <Grid item xs={12} className={classes.section}>
         <Typography className={classes.sectionHeader} component="h2">
           Talks
         </Typography>
         <TalkList talks={talks} />
-      </Grid>
+      < /Grid> */
+      }
+      {/*
+      プロジェクトカードをコメントに
       <Grid item xs={12} className={classes.section}>
         <Typography className={classes.sectionHeader} component="h2">
           Projects
         </Typography>
         <ProjectCardList projects={projects} />
       </Grid>
+       */}
       <Grid item xs={12} className={classes.section}>
         <Typography className={classes.sectionHeader} component="h2">
-          Skills
+          Career
         </Typography>
-        <Skills skills={skills} />
+        <WorkExperienceList works={works} />
       </Grid>
       <Grid item xs={12} className={classes.section}>
         <Typography className={classes.sectionHeader} component="h2">
