@@ -89,6 +89,12 @@ const Index = ({ classes }) => (
         </Typography>
         <Misc misc={misc} />
       </Grid>
+
+      <Grid item xs={12} className={classes.section}>
+        <div style={{ height: 50 }} />
+        {/* リンク集 */}
+        <Links links={links} />
+      </Grid>
     </GridContainer>
   </div>
 );

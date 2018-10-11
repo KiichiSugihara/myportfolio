@@ -1,45 +1,77 @@
 # Day in start & end is not precise!
 
-- title: Software Engineer / Site Reliability Engineer
-  company: Recruit Co., Ltd. (Indeed)
-  link: https://www.indeed.com/about
-  start: 2018-04-01
-  end: null
-  featured: true
-
-- title: Engineer
-  company: HERP, Inc.
-  link: https://herp.co.jp/
-  start: 2017-04-01
-  end: 2018-03-31
-  featured: true
-
-# Introduction to Programming / プログラミング入門
-- title: Teaching Assistant
-  company: Graduate School of Informatics, Kyoto University
-  link: null
-  start: 2017-04-01
-  end: 2017-07-31
-  featured: false
-
-# Hardware and Software Laboratory Project 3 (Software) / 計算機科学実験及演習3 (ソフトウェア)
-- title: Teaching Assistant
-  company: Graduate School of Informatics, Kyoto University
+- title: University Student
+  company: Informatics, Kansai University
   link: null
   start: 2016-04-01
-  end: 2016-07-31
-  featured: false
-
-- title: President & Co-founder
-  company: Unimap, Inc.
-  link: http://www.unimap.co.jp/
-  start: 2014-02-01
-  end: 2017-04-01
+  end: 2020-03-31
   featured: true
 
-- title: Office Assistant
-  company: Graduate School of Pharmaceutical Sciences, Kyoto University
+- title: English Teacher for highschool students and junior highschool students
+  company: Kogakukan (Cramschool for entrance examination)
   link: null
-  start: 2012-10-01
-  end: 2014-09-30
+  start: 2018-03-15
+  end: 2019-02-28
   featured: false
+
+- title: waiter
+  company: Cafeteria Poporo in Umeda SkyBuilding
+  link: null
+  start: 2017-06-01
+  end: 2018-02-15
+  featured: false
+
+- title: English Teacher for highschool students and junior highschool students
+  company: Kogakukan (Cramschool for entrance examination)
+  link: null
+  start: 2016-04-01
+  end: 2017-03-30
+  featured: false
+
+
+
+- title: Highschool Student
+  company: Seufunankai Highschool
+  link: null
+  start: 2012-04-01
+  end: 2015-03-31
+  featured: false
+
+
+
+# - title: Software Engineer / Site Reliability Engineer
+#   company: Recruit Co., Ltd. (Indeed)
+#   link: https://www.indeed.com/about
+#   start: 2018-04-01
+#   end: null
+#   featured: true
+
+# - title: Engineer
+#   company: HERP, Inc.
+#   link: https://herp.co.jp/
+#   start: 2017-04-01
+#   end: 2018-03-31
+#   featured: true
+
+# Introduction to Programming / プログラミング入門
+# - title: Teaching Assistant
+#   company: Graduate School of Informatics, Kyoto University
+#   link: null
+#   start: 2017-04-01
+#   end: 2017-07-31
+#   featured: false
+
+# Hardware and Software Laboratory Project 3 (Software) / 計算機科学実験及演習3 (ソフトウェア)
+# - title: Teaching Assistant
+#   company: Graduate School of Informatics, Kyoto University
+#   link: null
+#   start: 2016-04-01
+#   end: 2016-07-31
+#   featured: false
+
+# - title: President & Co-founder
+#   company: Unimap, Inc.
+#   link: http://www.unimap.co.jp/
+#   start: 2014-02-01
+#   end: 2017-04-01
+#   featured: true

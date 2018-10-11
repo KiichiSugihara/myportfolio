@@ -8,10 +8,10 @@
 #  url:
 #  icon: [fab, btc]
 
-- title: Blog
-  url: https://blog.ymyzk.com/ #未編集
-  icon: rss
-  color: "#f26522"
+# - title: Blog
+  # url: https://blog.ymyzk.com/ #未編集
+  # icon: rss
+  # color: "#f26522"
 
 - title: E-mail
   url: mailto:kiichi.sugihara@gmail.com

@@ -67,7 +67,7 @@ const Hero = ({ classes }) => {
             Kiichi Sugihara
             <br />
             <small className={classes.titleLead}>
-              Software Engineer in Osaka
+              University Student in Osaka
             </small>
           </h1>
         </div>
